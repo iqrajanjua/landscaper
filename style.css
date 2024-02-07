@@ -1,0 +1,345 @@
+.sliderr {
+  position: relative;
+  left: 400px;
+  top: 100px;
+  font-size: xx-large;
+}
+
+.lorem {
+  position: relative;
+  left: 280px;
+  top: 120px;
+  font-size: medium;
+}
+
+.btnn {
+  position: relative;
+  left: 500px;
+  top: 150px;
+}
+
+.hr {
+  border-width: 10px;
+  width: 100px;
+  border-color: #6aaf08;
+}
+
+.garden {
+  height: 200px;
+}
+
+.hrr {
+  border-width: 6px;
+  width: 50px;
+  color: #578319;
+}
+
+.gardentwo {
+  position: relative;
+  right: 40px;
+}
+
+.line:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+.slidertwo {
+  height: 500px;
+}
+
+.gbtnthree:hover {
+  color: white;
+  background-color: #29d912;
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  transition: 0.5s ease;
+  opacity: 0;
+  text-align: center;
+}
+
+.box:hover .content {
+  opacity: 1;
+
+}
+
+.imgg {
+  height: 400px;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(144, 238, 144, 0.8);
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.icons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255);
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  border-radius: 20px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 1);
+}
+
+.icons i {
+  margin-bottom: 3px;
+  color: #000;
+  padding: 3px;
+  border-radius: 6px;
+}
+
+.icons i:hover {
+  background-color: green;
+  color: white;
+}
+
+.card:hover .icons {
+  right: 10px;
+  opacity: 1;
+}
+
+.to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #29d912;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.hidden {
+  display: none;
+}
+
+.gbtn {
+  position: relative;
+  left: 300px;
+}
+
+.gbtntwo {
+  position: relative;
+  left: 150px;
+}
+
+.gbtnfour {
+  position: relative;
+  right: 150px;
+}
+
+.cardthree {
+  height: 280px;
+}
+
+@media screen and (max-width: 912px) and (min-width:768px) {
+  .sliderr {
+    position: relative;
+    left: 10px;
+    top: 100px;
+    font-size: 50px;
+  }
+
+  .lorem {
+    position: relative;
+    left: 15px;
+    top: 100px;
+    font-size: larger;
+  }
+
+  .btnn {
+    position: relative;
+    left: 300px;
+    top: 120px;
+  }
+
+  .gardentwo {
+    position: relative;
+    right: 30px;
+  }
+
+  .gbtn {
+    position: relative;
+    left: 100px;
+  }
+
+  .gbtntwo {
+    position: relative;
+    left: 50px;
+  }
+
+  .gbtnfour {
+    position: relative;
+    right: 50px;
+  }
+
+}
+
+@media screen and (max-width: 1024px) and (min-width:1000px) {
+  .sliderr {
+    position: relative;
+    left: 300px;
+    top: 100px;
+    font-size: xx-large;
+  }
+
+  .lorem {
+    position: relative;
+    left: 50px;
+    top: 130px;
+    font-size: medium;
+  }
+
+  .btnn {
+    position: relative;
+    left: 400px;
+    top: 150px;
+  }
+
+  .gardentwo {
+    position: relative;
+    right: 20px;
+  }
+
+  .gbtn {
+    position: relative;
+    left: 200px;
+  }
+
+  .gbtntwo {
+    position: relative;
+    left: 100px;
+  }
+
+  .gbtnfour {
+    position: relative;
+    right: 90px;
+  }
+
+  .cardthree {
+    height: 325px;
+  }
+
+}
+
+@media screen and (max-width: 598px) and (min-width:400px) {
+  .sliderr {
+    position: relative;
+    left: 10px;
+    top: 100px;
+    font-size: 30px;
+  }
+
+  .lorem {
+    position: relative;
+    left: 10px;
+    top: 100px;
+    font-size: larger;
+  }
+
+  .btnn {
+    position: relative;
+    left: 100px;
+    top: 100px;
+  }
+
+  .gardentwo {
+    position: relative;
+    right: 10px;
+  }
+
+  .gbtn {
+    position: relative;
+    left: 0px;
+  }
+
+  .gbtntwo {
+    position: relative;
+    left: 0px;
+  }
+
+  .gbtnfour {
+    position: relative;
+    right: 0px;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width:390px) {
+  .sliderr {
+    position: relative;
+    left: 10px;
+    top: 0px;
+    font-size: xx-large;
+  }
+
+  .lorem {
+    position: relative;
+    left: 10px;
+    top: 0px;
+  }
+
+  .btnn {
+    position: relative;
+    left: 30px;
+    top: 10px;
+  }
+
+  .gardentwo {
+    position: relative;
+    right: 10px;
+  }
+
+  .slidertwo {
+    height: 300px;
+  }
+
+  .gbtn {
+    position: relative;
+    left: 0px;
+  }
+
+  .gbtntwo {
+    position: relative;
+    left: 0px;
+  }
+
+  .gbtnfour {
+    position: relative;
+    right: 0px;
+  }
+
+}
